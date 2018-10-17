@@ -23,7 +23,24 @@
           <label for="time">Time</label>
           <input id="time" class="form-control" type="time">
         </div>
+        <button type="submit" class="btn">Make Appointment</button>
      </form>
+
+     <div id="appointment-modal" class="modal" tabindex="-1" role="dialog">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title">Your Appointment</h5>
+           </div>
+           <div class="modal-body">
+             <p class="name"></p>
+             <p class="type"></p>
+             <p class="date"></p>
+             <p class="time"></p>
+           </div>
+         </div>
+       </div>
+     </div>
     </div>
   </body>
 </html>
